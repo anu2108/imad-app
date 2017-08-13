@@ -3,4 +3,7 @@ var element = document.getElementById('main text'
 );
 element.innerHTML = 'Waaaaasssssaaaaaap';
 
-var element = document.getElementById('madi');
+var img = document.getElementById('img') ;
+img.onclick = function(){
+  img.style.marginleft= "100px"  ;
+};
